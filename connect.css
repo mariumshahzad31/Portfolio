@@ -1,0 +1,58 @@
+body {
+  background: #f9f9fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  padding-top: 100px;
+}
+
+.navbar {
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  font-family: 'Lucida Handwriting', cursive;
+  color: #800020 !important;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #800020 !important;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #5a0015 !important;
+}
+
+.text-maroon {
+  color: #800020 !important;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+.btn-maroon {
+  color: #800020;
+  border: 2px solid #800020;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-maroon:hover {
+  background-color: #800020;
+  color: #fff;
+}
